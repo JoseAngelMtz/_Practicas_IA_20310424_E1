@@ -23,3 +23,21 @@ del colores[4]
 print(colores)
 
 "capitulo 13"
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
+colores.remove('amarillo')
+colores.remove('rojo')
+print(colores)
+
+"capitulo 14"
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
+colralma=[' ',' ']
+colralma[0]=colores.pop(1)
+colralma[1]=colores.pop(-2)
+print(colralma)
+
+"capitulo 15"
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
+colores.append('fuxia')
+colores.append('celeste')
+
+"capitulo 16"
