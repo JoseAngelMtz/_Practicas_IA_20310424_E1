@@ -34,10 +34,25 @@ colralma=[' ',' ']
 colralma[0]=colores.pop(1)
 colralma[1]=colores.pop(-2)
 print(colralma)
-
+print(colores)
 "capitulo 15"
 colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
 colores.append('fuxia')
 colores.append('celeste')
+print(colores)
 
 "capitulo 16"
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
+colores.insert(-1,'turquesa')
+colores.insert(-5,'magenta')
+print(colores)
+
+"capitulo 17"
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón','lila', 'negro', 'rosa', 'blanco', 'naranja']
+colores.sort(reverse=True)
+print(colores)
+
+"capitulo 18"
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón','lila', 'negro', 'rosa', 'blanco', 'naranja']
+cantidad= len(colores)
+print(cantidad)
